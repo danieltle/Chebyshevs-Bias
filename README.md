@@ -23,7 +23,7 @@ The central question is:
 | File                | Description                                                                     |
 | ------------------- | ------------------------------------------------------------------------------- |
 | `chebyshev.py`      | Simulation and visualization engine for prime races modulo $q$                  |
-| `MA357_Project.pdf` | Research paper containing theoretical background, proofs, analysis, and results |
+| `Chebyshevs_Bias.pdf` | Research paper containing theoretical background, proofs, analysis, and results |
 
 ---
 
@@ -120,7 +120,7 @@ leads approximately **99.59%** of the time with respect to logarithmic density.
 Rubinstein and Sarnak explained the phenomenon through the bias constant
 
 $$
-c(q,a) = -1 + \left| {x \pmod q : x^2 \equiv a \pmod q} \right|.
+c(q,a) = -1 + \lvert \left\{ x \pmod q : x^2 \equiv a \pmod q \right\} \rvert.
 $$
 
 For a quadratic residue $a$, square roots exist modulo $q$, so
