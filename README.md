@@ -120,7 +120,7 @@ leads approximately **99.59%** of the time with respect to logarithmic density.
 Rubinstein and Sarnak explained the phenomenon through the bias constant
 
 $$
-c(q,a) = -1 + \lvert \left \{ x \pmod q : x^2 \equiv a \pmod q \right \} \rvert.
+c(q,a) = -1 + \lvert \{ x \pmod q : x^2 \equiv a \pmod q \} \rvert.
 $$
 
 For a quadratic residue $a$, square roots exist modulo $q$, so
