@@ -2,7 +2,7 @@
 
 A computational and theoretical investigation of **Chebyshev's Bias** — the phenomenon where primes congruent to quadratic non-residues consistently outnumber those congruent to quadratic residues over finite ranges, despite being asymptotically equal.
 
-Written as a final paper for **MA 357 (Number Theory)** at Bowdoin College.
+Written as a final paper for **MA 357 (Number Theory)** at Colby College.
 
 ---
 
@@ -85,7 +85,7 @@ To investigate other races, modify the parameters at the bottom of the script.
 Computations were performed for six moduli
 
 $$
-q = 3,;4,;5,;6,;7,;9
+q = 3;4;5;6;7;9
 $$
 
 up to
@@ -120,12 +120,7 @@ leads approximately **99.59%** of the time with respect to logarithmic density.
 Rubinstein and Sarnak explained the phenomenon through the bias constant
 
 $$
-c(q,a)
-======
-
--1
-+
-#{x \pmod q : x^2 \equiv a \pmod q}.
+c(q,a) = -1 + #{x \pmod q : x^2 \equiv a \pmod q}.
 $$
 
 For a quadratic residue $a$, square roots exist modulo $q$, so
@@ -177,4 +172,4 @@ changes sign infinitely many times. Eventually, every contestant in the race tak
 
 **Daniel Le**
 Mathematics & Statistics • Computer Science
-Bowdoin College
+Colby College
