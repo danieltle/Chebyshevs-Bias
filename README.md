@@ -2,7 +2,7 @@
 
 A computational and theoretical investigation of **Chebyshev's Bias** — the phenomenon where primes congruent to quadratic non-residues consistently outnumber those congruent to quadratic residues over finite ranges, despite being asymptotically equal.
 
-Written as a final paper for **MA 357 (Number Theory)** at Colby College.
+Written as a final paper for **MA 357 (Elementary Number Theory)** at Colby College.
 
 ---
 
