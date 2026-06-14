@@ -171,5 +171,7 @@ changes sign infinitely many times. Eventually, every contestant in the race tak
 ## Author
 
 **Daniel Le**
+
 Mathematics & Statistics • Computer Science
+
 Colby College
